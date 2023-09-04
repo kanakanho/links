@@ -12,7 +12,7 @@ export const ImageProvider = ({ children }) => {
         { src: "icon/github.jpeg", alt: "Github", url: "https://github.com" },
         { src: "icon/qiita.jpeg", alt: "Qiita", url: "https://qiita.com" },
         { src: "icon/zenn.jpeg", alt: "Zenn", url: "https://zenn.dev" },
-        { src: "icon/note.jpeg", alt: "Blog", url: "https://kanakanho.vercel.app" },
+        { src: "icon/note.jpeg", alt: "Blog", url: "https://kanakanho-record.vercel.app" },
         { src: "icon/youtube.jpeg", alt: "Youtube", url: "https://www.youtube.com" },
     ]);
 
