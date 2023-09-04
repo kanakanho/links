@@ -10,7 +10,7 @@ function HeaderIcon() {
         <>
             <div className="header-icon">
                 {images.map((image, index) => (
-                    <Icon key={index} src={image.src} alt={image.alt} />
+                    <Icon key={index} src={image.src} alt={image.alt} url={image.url} />
                 ))}
             </div>
         </>

@@ -1,9 +1,13 @@
 import React from "react";
-import Page from "../Pages/Page.jsx";
+import Page from "../Pages/Page";
 
 class View extends React.Component {
     render() {
-        return  <Page />;
+        return (
+            <div>
+                <Page />
+            </div>
+        );
     }
 }
 
