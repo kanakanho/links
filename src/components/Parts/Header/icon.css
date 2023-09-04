@@ -1,0 +1,22 @@
+.image-part {
+    text-align: center;
+    color: aliceblue;
+}
+.icon {
+    padding: 0 0.5rem;
+    width: 5rem;
+    height: auto;
+}
+
+@media screen and (max-width: 480px) {
+    .image-part {
+        display: inline-block;
+        text-align: center;
+        color: aliceblue;
+    }
+    .icon {
+        padding: 0 0.5rem;
+        width: 5rem;
+        height: auto;
+    }
+}
