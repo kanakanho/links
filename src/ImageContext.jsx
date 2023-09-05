@@ -8,12 +8,12 @@ export const useImageContext = () => {
 
 export const ImageProvider = ({ children }) => {
     const [images, setImages] = useState([
-        { src: "icon/twitter.jpeg", alt: "Twitter", url: "https://twitter.com" },
-        { src: "icon/github.jpeg", alt: "Github", url: "https://github.com" },
-        { src: "icon/qiita.jpeg", alt: "Qiita", url: "https://qiita.com" },
-        { src: "icon/zenn.jpeg", alt: "Zenn", url: "https://zenn.dev" },
+        { src: "icon/twitter.jpeg", alt: "Twitter", url: "https://twitter.com/Shiba_ao_" },
+        { src: "icon/github.jpeg", alt: "Github", url: "https://github.com/kanakanho" },
+        { src: "icon/qiita.jpeg", alt: "Qiita", url: "https://qiita.com/kanakanho" },
+        { src: "icon/zenn.jpeg", alt: "Zenn", url: "https://zenn.dev/kanakanho" },
         { src: "icon/note.jpeg", alt: "Blog", url: "https://kanakanho-record.vercel.app" },
-        { src: "icon/youtube.jpeg", alt: "Youtube", url: "https://www.youtube.com" },
+        { src: "icon/youtube.jpeg", alt: "Youtube", url: "https://www.youtube.com/@kanakanho" },
     ]);
 
     return <ImageContext.Provider value={{ images }}>{children}</ImageContext.Provider>;
