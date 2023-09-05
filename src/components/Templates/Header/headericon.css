@@ -29,15 +29,15 @@ a {
     }
 }
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
     .header-icon {
         display: grid;
         padding: 2rem 0rem;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
         overflow: auto;
         white-space: nowrap;
     }
-}
+} */
 
 @media screen and (max-width: 600px) {
     .header-icon {

@@ -5,7 +5,6 @@ function Part(props) {
     const { name, description, url } = props;
     //descriptionに"    "が入っているときは改行する
     const descriptionArray = description.split("    ");
-    const lenDescriptionArray = descriptionArray.length;
 
     return (
         <div className="part">
