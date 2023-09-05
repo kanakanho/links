@@ -7,7 +7,7 @@ function Text(props) {
     if (title) {
         return (
             <div className="text">
-                <h3>{`${title}`}</h3>
+                <h2>{`${title}`}</h2>
             </div>
         );
     } else if (article) {

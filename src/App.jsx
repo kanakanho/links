@@ -1,4 +1,3 @@
-import "./App.css";
 import View from "./components/Views/View.jsx";
 
 function App() {

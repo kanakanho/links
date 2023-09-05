@@ -1,7 +1,8 @@
 .header-icon {
     display: grid;
-    padding: 2rem 5rem;
+    padding: 2rem 3rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
 }
 
 a {
@@ -18,7 +19,27 @@ a {
     display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1300px) {
+    .header-icon {
+        display: grid;
+        padding: 2rem 0rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        overflow: auto;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .header-icon {
+        display: grid;
+        padding: 2rem 0rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        overflow: auto;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .header-icon {
         display: block;
         padding: 2rem 0;
@@ -26,3 +47,5 @@ a {
         white-space: nowrap;
     }
 }
+
+
