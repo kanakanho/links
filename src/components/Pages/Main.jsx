@@ -1,7 +1,7 @@
 import "./main.css";
 import React from "react";
 import TextBox from "../Templates/Main/TextBox";
-import { TextBoxProvider } from "../../TextBoxContext.jsx";
+import { TextBoxProvider } from "../../prosessing/TextBoxContext.jsx";
 
 class Main extends React.Component {
     render() {

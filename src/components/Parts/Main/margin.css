@@ -1,3 +1,11 @@
-.margin {
-    padding: 2rem;
+.high {
+    padding-top: 6rem;
+}
+
+.low {
+    padding-top: 4rem;
+}
+
+.absent {
+    padding-top: 2rem;
 }

@@ -30,7 +30,7 @@ export const TextBoxProvider = ({ children }) => {
             margin: "",
         },
         {
-            image: "https://kanakanho.vercel.app/img/geekcamp-0617/paper_app_title.png",
+            image: "https://kanakanho-record.vercel.app/img/geekcamp-0617/paper_app_title.png",
             movie: "",
             title: "アプリ 「かみあぷり」",
             article:

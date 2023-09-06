@@ -1,7 +1,7 @@
-import "./headeruser.css";
+import "./user.css";
 import React from "react";
-import Part from "../../Parts/Header/Part.jsx";
-import { useUserContext } from "../../../UserContext.jsx";
+import Info from "../../Parts/Header/info.jsx";
+import { useUserContext } from "../../../prosessing/UserContext.jsx";
 
 function User() {
     const { name, description, url } = useUserContext();
@@ -9,7 +9,7 @@ function User() {
     return (
         <>
             <div className="users">
-                <Part name={name} description={description} url={url} />
+                <Info name={name} description={description} url={url} />
             </div>
         </>
     );

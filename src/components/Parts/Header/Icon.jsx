@@ -1,6 +1,6 @@
 import "./icon.css";
 import React from "react";
-import { useImageContext } from "../../../ImageContext.jsx";
+import { useImageContext } from "../../../prosessing/ImageContext.jsx";
 
 function Icon(props) {
     const { src, alt, url } = props;

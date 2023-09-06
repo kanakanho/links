@@ -1,9 +1,9 @@
 import "./margin.css";
 import React from "react";
 
-class Margin extends React.Component {
-    render() {
-        return <div className="margin" style={{ backgroundColor: "transparent" }}></div>;
-    }
+function Margin(props) {
+    const { margin:text } = props;
+    return <div className={`${text}`}></div>;
 }
+
 export default Margin;
