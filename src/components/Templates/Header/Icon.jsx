@@ -1,6 +1,6 @@
 import "./icon.css";
 import React from "react";
-import Icon from "../../Parts/Header/Icon.jsx";
+import Icon from "../../Parts/Header/Icon";
 import { useImageContext } from "../../../prosessing/ImageContext";
 
 function HeaderIcon() {
