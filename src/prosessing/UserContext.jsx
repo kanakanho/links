@@ -15,7 +15,9 @@ export const UserProvider = ({ children }) => {
         const fetchData = async () => {
             try {
                 // データの読み込み
-                const response = await fetch("/data.json");
+                const response = await fetch(
+                    "https://raw.githubusercontent.com/kanakanho/links/master/public/data.json"
+                );
                 if (!response.ok) {
                     throw new Error("Failed to fetch data");
                 }
