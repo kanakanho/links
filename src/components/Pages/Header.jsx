@@ -1,7 +1,7 @@
 import "./header.css";
 import React from "react";
-import HeaderUser from "../Templates/Header/User.jsx";
-import HeaderIcon from "../Templates/Header/Icon.jsx";
+import User from "../Templates/Header/User.jsx";
+import Icon from "../Templates/Header/Icon.jsx";
 import { ImageProvider } from "../../prosessing/ImageContext.jsx";
 import { UserProvider } from "../../prosessing/UserContext.jsx";
 
@@ -10,10 +10,10 @@ class Header extends React.Component {
         return (
             <div className="header">
                 <UserProvider>
-                    <HeaderUser />
+                    <User />
                 </UserProvider>
                 <ImageProvider>
-                    <HeaderIcon />
+                    <Icon />
                 </ImageProvider>
             </div>
         );

@@ -13,7 +13,7 @@ function TextBox() {
         <div className="textBox">
             {texts.map((textData, index) => (
                 <>
-                    <div className={textData.margin !== "" ? "margin" : "box"} key={index}>
+                    <div key={index} className={textData.margin !== "" ? "margin" : "box"}>
                         {textData.movie && <Movie movie={textData.movie} />}
                         {textData.image && <Image image={textData.image} />}
                         {textData.title && <Text title={textData.title} />}

@@ -3,7 +3,7 @@ import React from "react";
 
 function Info(props) {
     const { name, description, url } = props;
-    //descriptionに"    "が入っているときは改行する
+    //descriptionに"\n"が入っているときは改行する
     const descriptionArray = description.split("\n");
 
     return (

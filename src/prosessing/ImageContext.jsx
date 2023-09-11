@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useContext, useState, useEffect } from "react";
 
 const ImageContext = createContext();
 
@@ -7,14 +7,28 @@ export const useImageContext = () => {
 };
 
 export const ImageProvider = ({ children }) => {
-    const [images, setImages] = useState([
-        { src: "icon/twitter.jpeg", alt: "Twitter", url: "https://twitter.com/Shiba_ao_" },
-        { src: "icon/github.jpeg", alt: "Github", url: "https://github.com/kanakanho" },
-        { src: "icon/qiita.jpeg", alt: "Qiita", url: "https://qiita.com/kanakanho" },
-        { src: "icon/zenn.jpeg", alt: "Zenn", url: "https://zenn.dev/kanakanho" },
-        { src: "icon/youtube.jpeg", alt: "Youtube", url: "https://www.youtube.com/@kanakanho" },
-        { src: "icon/note.jpeg", alt: "Blog", url: "https://kanakanho-record.vercel.app" },
-    ]);
+    const [images, setImages] = useState([]);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch("/data.json"); // データのパスを適切に指定
+                if (!response.ok) {
+                    throw new Error("Failed to fetch data");
+                }
+                const data = await response.json();
+
+                // ここで必要なデータを選択し、images ステートにセット
+                const imageList = data.map((dataItem) => dataItem.Links).flat();
+
+                setImages(imageList);
+            } catch (error) {
+                console.error("Error fetching data:", error);
+            }
+        };
+
+        fetchData(); // fetchData 関数を呼び出し、データを取得
+    }, []); // 空の依存リストを渡すことで初回のみ実行
 
     return <ImageContext.Provider value={{ images }}>{children}</ImageContext.Provider>;
 };

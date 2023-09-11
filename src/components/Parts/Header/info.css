@@ -1,7 +1,7 @@
 .part {
     display: block;
     margin: 0rem 2rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
     padding-bottom: 2rem;
     border-radius: 2rem;
     background-color: rgba(255, 255, 255, 0.6);
@@ -9,7 +9,7 @@
 }
 
 .part .icon {
-    width: 25%;
+    width: 20%;
     border-radius: 50%;
 }
 
@@ -17,18 +17,45 @@
     margin: 0;
 }
 
-.part h1 {
-    margin: 1rem 0rem;
-}
-
 .material-symbols-outlined {
     font-size: 3rem;
     position: absolute;
-    top: 30%;
+    top: 28%;
     right: 0.5rem;
     left: 0.5rem;
     color: rgba(0, 0, 0, 0.5);
 }
+
+.enter {
+    /* overflow: hidden; */
+    position: relative;
+    margin: 0rem 2rem;
+    min-height: 100%;
+}
+
+.input {
+    width: max-content;
+    max-width: 100%;
+    margin: 0 0 1rem 0;
+    padding: 0.2rem 2rem;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    font-size: 1.5rem;
+    outline: none;
+}
+
+.description {
+    resize: none;
+    margin: 0rem;
+    padding: 0.5rem;
+    background-color: transparent;
+    width: 80%;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+/* ------------ Responsive ------------ */
 
 @media screen and (max-width: 480px) {
     .part {
@@ -37,8 +64,11 @@
     }
     .material-symbols-outlined {
         font-size: 2rem;
-        top: 27%;
+        top: 25%;
         right: 0.5rem;
         left: 0.5rem;
+    }
+    .input {
+        max-width: 60%;
     }
 }

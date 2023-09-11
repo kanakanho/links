@@ -16,11 +16,14 @@
     box-shadow: 0.2rem 0.2rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
 }
 
-#plus {
+#addLink {
     border-radius: 1rem;
     background-color: rgba(0, 0, 0, 0.2);
     border: solid 0.1rem #555;
     padding: none;
+}
+
+#addLink p {
     color: #fff;
 }
 

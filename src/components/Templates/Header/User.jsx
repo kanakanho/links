@@ -1,6 +1,6 @@
 import "./user.css";
 import React from "react";
-import Info from "../../Parts/Header/info.jsx";
+import Part from "../../Parts/Header/Info.jsx";
 import { useUserContext } from "../../../prosessing/UserContext.jsx";
 
 function User() {
@@ -9,7 +9,7 @@ function User() {
     return (
         <>
             <div className="users">
-                <Info name={name} description={description} url={url} />
+                <Part name={name} description={description} url={url} />
             </div>
         </>
     );
