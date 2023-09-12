@@ -1,6 +1,6 @@
 import "./user.css";
 import React from "react";
-import Info from "../../Parts/Header/Info";
+import Info from "../../parts/header/info";
 import { useUserContext } from "../../../prosessing/UserContext.jsx";
 
 function User() {

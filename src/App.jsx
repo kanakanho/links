@@ -1,4 +1,4 @@
-import View from "./components/Views/View.jsx";
+import View from "./components/views/view";
 
 function App() {
     return <View />;

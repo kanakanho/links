@@ -1,7 +1,7 @@
 import "./header.css";
 import React from "react";
-import User from "../Templates/Header/User.jsx";
-import Icon from "../Templates/Header/Icon.jsx";
+import User from "../templates/header/user";
+import Icon from "../templates/header/icon";
 import { ImageProvider } from "../../prosessing/ImageContext.jsx";
 import { UserProvider } from "../../prosessing/UserContext.jsx";
 
