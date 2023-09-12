@@ -1,0 +1,42 @@
+/* marginがabsentの場合は消す */
+
+.margin {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+/* 通常の場合 */
+.textBox {
+    text-align: center;
+    margin: 0 3rem;
+}
+
+.box {
+    text-align: center;
+    width: 96%;
+    height: auto;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+    .textBox {
+        text-align: center;
+        margin: 0 0.5rem;
+    }
+
+    .box {
+        text-align: center;
+        width: 94%;
+        height: auto;
+        padding: 3%;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 0.5rem;
+    }
+}
