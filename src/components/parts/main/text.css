@@ -1,0 +1,10 @@
+.text {
+    width: 100%;
+    height: fit-content;
+    color: aliceblue;
+}
+
+p {
+    width: 100%;
+    white-space: pre-wrap;
+}
