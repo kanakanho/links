@@ -15,7 +15,7 @@ export const UserProvider = ({ children }) => {
         const fetchData = async () => {
             try {
                 // データの読み込み
-                const response = await fetch("/src/data.json");
+                const response = await fetch("/data.json");
                 if (!response.ok) {
                     throw new Error("Failed to fetch data");
                 }

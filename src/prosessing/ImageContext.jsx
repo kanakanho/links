@@ -12,7 +12,7 @@ export const ImageProvider = ({ children }) => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("/data.json"); // データのパスを適切に指定
+                const response = await fetch("/data.json");
                 if (!response.ok) {
                     throw new Error("Failed to fetch data");
                 }
