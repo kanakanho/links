@@ -1,15 +1,15 @@
 import "./user.css";
 import React from "react";
 import Info from "../../parts/header/info";
-import { useUserContext } from "../../../prosessing/UserContext.jsx";
+import Data from "../../../data.json";
 
 function User() {
-    const { name, description, url } = useUserContext();
+    const dataObj = Data[0];
 
     return (
         <>
             <div className="users">
-                <Info name={name} description={description} url={url} />
+                <Info name={dataObj.Name} description={dataObj.Description} url={dataObj.Icon} />
             </div>
         </>
     );

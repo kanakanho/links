@@ -4,10 +4,12 @@ import Movie from "../../parts/main/movie";
 import Image from "../../parts/main/image";
 import Text from "../../parts/main/text";
 import Margin from "../../parts/main/margin";
-import { useTextBoxContext } from "../../../prosessing/TextBoxContext";
+import Data from "../../../data.json";
 
 function TextBox() {
-    const { texts } = useTextBoxContext();
+    const dataObj = Data[0];
+    const texts = dataObj.article;
+    
 
     return (
         <div className="textBox">

@@ -1,10 +1,11 @@
 import "./icon.css";
 import React from "react";
 import Icon from "../../parts/header/icon";
-import { useImageContext } from "../../../prosessing/ImageContext";
+import Data from "../../../data.json";
 
 function HeaderIcon() {
-    const { images } = useImageContext();
+    const dataObj = Data[0];
+    const images = dataObj.Links;
 
     return (
         <>
