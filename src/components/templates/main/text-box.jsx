@@ -14,7 +14,7 @@ function TextBox() {
     return (
         <div className="textBox">
             {texts.map((textData, index) => (
-                <>
+                <a key={index} href={textData.link} rel="noopener noreferrer">
                     <div key={index} className={textData.margin !== "" ? "margin" : "box"}>
                         {textData.movie && <Movie movie={textData.movie} />}
                         {textData.image && <Image image={textData.image} />}
@@ -23,7 +23,7 @@ function TextBox() {
                         {textData.margin && <Margin margin={textData.margin} />}
                     </div>
                     <div className="padding"></div>
-                </>
+                </a>
             ))}
         </div>
     );
