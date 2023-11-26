@@ -6,10 +6,10 @@
         "Links": [
             { "alt": "Twitter", "url": "https://twitter.com/Shiba_ao_" },
             { "alt": "Github", "url": "https://github.com/kanakanho" },
+            { "alt": "Blog", "url": "https://kanakanho-record.vercel.app" },
             { "alt": "Qiita", "url": "https://qiita.com/kanakanho" },
             { "alt": "Zenn", "url": "https://zenn.dev/kanakanho" },
-            { "alt": "Youtube", "url": "https://www.youtube.com/@kanakanho" },
-            { "alt": "Blog", "url": "https://kanakanho-record.vercel.app" }
+            { "alt": "Youtube", "url": "https://www.youtube.com/@kanakanho" }
         ],
         "article": [
             {
