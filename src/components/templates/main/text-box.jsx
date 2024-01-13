@@ -9,10 +9,13 @@ import Data from "../../../data.json";
 function TextBox() {
     const dataObj = Data[0];
     const texts = dataObj.article;
-    
 
     return (
         <div className="textBox">
+            <div className="title">
+                <p>Products</p>
+                <div className="padding"></div>
+            </div>
             {texts.map((textData, index) => (
                 <a key={index} href={textData.link} rel="noopener noreferrer">
                     <div key={index} className={textData.margin !== "" ? "margin" : "box"}>
