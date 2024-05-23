@@ -25,7 +25,7 @@
     padding-bottom: 2rem;
 }
 
-.title {    
+.title {
     font-size: 2rem;
     font-weight: bold;
     color: #333;
@@ -34,6 +34,10 @@
 .title p {
     margin: 0;
     padding: 0;
+}
+
+.extraMessage {
+    color: aliceblue;
 }
 
 @media screen and (max-width: 480px) {

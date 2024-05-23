@@ -24,6 +24,7 @@ function TextBox() {
                         {textData.title && <Text title={textData.title} />}
                         {textData.article && <Text article={textData.article} />}
                         {textData.margin && <Margin margin={textData.margin} />}
+                        <p class="extraMessage">{textData.link ? "詳しくはこちら >" : ""}</p>
                     </div>
                     <div className="padding"></div>
                 </a>
