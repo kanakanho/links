@@ -6,7 +6,7 @@
         "Links": [
             { "alt": "Twitter", "url": "https://twitter.com/Shiba_ao_" },
             { "alt": "Github", "url": "https://github.com/kanakanho" },
-            { "alt": "Article", "url": "https://kanakanho-record.vercel.app" },
+            { "alt": "Article", "url": "https://record.kanakanho.dev" },
             { "alt": "Qiita", "url": "https://qiita.com/kanakanho" },
             { "alt": "Zenn", "url": "https://zenn.dev/kanakanho" },
             { "alt": "Youtube", "url": "https://www.youtube.com/@kanakanho" }
@@ -19,6 +19,14 @@
                 "article": "",
                 "margin": "",
                 "link": ""
+            },
+            {
+                "image": "https://record.kanakanho.dev/img/27tech-vol1/main-slide.jpeg",
+                "movie": "",
+                "title": "「27Tech」主催",
+                "article": "中部地方27卒の交流を深めるイベントを主催しました",
+                "margin": "",
+                "link": "https://record.kanakanho.dev/posts/27techvol1/"
             },
             {
                 "image": "",
@@ -37,12 +45,12 @@
                 "link": "https://github.com/kanakanho/ShareLinks"
             },
             {
-                "image": "https://kanakanho-record.vercel.app/img/munsellcolor.jpeg",
+                "image": "https://record.kanakanho.dev/img/munsellcolor.jpeg",
                 "movie": "",
                 "title": "webサイト「munsell-colors」",
                 "article": "個人開発で作った色を見つけるためのwebサイトです。",
                 "margin": "",
-                "link": "https://kanakanho-record.vercel.app/posts/munsellcolors/"
+                "link": "https://record.kanakanho.dev/posts/munsellcolors/"
             },
             {
                 "image": "",
@@ -58,15 +66,15 @@
                 "title": "2023",
                 "article": "",
                 "margin": "",
-                "link": "https://kanakanho-record.vercel.app/posts/review2023/"
+                "link": "https://record.kanakanho.dev/posts/review2023/"
             },
             {
-                "image": "https://kanakanho-record.vercel.app/img/geekcamp-1118/title.png",
+                "image": "https://record.kanakanho.dev/img/geekcamp-1118/title.png",
                 "movie": "",
                 "title": "プラットフォーム「簡単行列整理くん」",
                 "article": "技育CAMPキャラバン名古屋で最優秀賞をいただいたプロダクトです。",
                 "margin": "",
-                "link": "https://kanakanho-record.vercel.app/posts/geekcamp-1118"
+                "link": "https://record.kanakanho.dev/posts/geekcamp-1118"
             },
             {
                 "image": "https://ait-tgs-tyuukanotatujin.vercel.app/img/image.png",
@@ -74,7 +82,7 @@
                 "title": "ゲーム 「中華の達人」",
                 "article": "TGS2023に向けて制作したゲームです。",
                 "margin": "",
-                "link": "https://kanakanho-record.vercel.app/posts/tgs-2023/"
+                "link": "https://record.kanakanho.dev/posts/tgs-2023/"
             },
             {
                 "image": "",
@@ -82,15 +90,15 @@
                 "title": "アプリ 「wisdom Tree」",
                 "article": "技育展2023に向けて開発したアプリです。",
                 "margin": "",
-                "link": "https://kanakanho-record.vercel.app/posts/geekten2023-final/"
+                "link": "https://record.kanakanho.dev/posts/geekten2023-final/"
             },
             {
-                "image": "https://kanakanho-record.vercel.app/img/geekcamp-0617/paper_app_title.png",
+                "image": "https://record.kanakanho.dev/img/geekcamp-0617/paper_app_title.png",
                 "movie": "",
                 "title": "アプリ 「かみあぷり」",
                 "article": "技育CAMPキャラバン 福岡 にて最優秀賞、技育CAMP アドバンス にて 企業賞(MIXI賞)を受賞したアプリです。",
                 "margin": "",
-                "link": "https://kanakanho-record.vercel.app/posts/geekcamp-0617"
+                "link": "https://record.kanakanho.dev/posts/geekcamp-0617"
             },
             {
                 "image": "",
