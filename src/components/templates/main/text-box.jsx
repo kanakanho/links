@@ -13,7 +13,7 @@ function TextBox() {
     return (
         <div className="textBox">
             <div className="title">
-                <p>Products</p>
+                <p>Events & Products</p>
                 <div className="padding"></div>
             </div>
             {texts.map((textData, index) => (
